@@ -1,0 +1,3 @@
+#!/bin/bash
+mkdir Perseus_Latin_xml
+find Classics -name '*.xml' -exec cp {} Perseus_Latin_xml  \;

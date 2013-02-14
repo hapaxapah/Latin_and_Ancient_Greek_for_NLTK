@@ -1,0 +1,2 @@
+#!/bin/bash
+find Classics -name '*.xml' -exec cp {} /classics_xml  \;
