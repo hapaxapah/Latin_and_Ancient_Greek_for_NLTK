@@ -1,0 +1,5 @@
+ .*
+ !/.gitignore
+
+# Ignore all emacs backup files
+*~
