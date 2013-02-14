@@ -1,0 +1,3445 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.perseus.org/meta/perseus.rdfs#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:dctype="http://purl.org/dc/dcmitype/"
+	xmlns:perseus="http://www.perseus.org/meta/perseus.rdfs#"
+	xmlns:persq="http://www.perseus.org/meta/persq.rdfs#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:tufts="http://www.tufts.edu/"
+	>
+	<rdf:Description rdf:about="Perseus:corpus:ddbdp,Greek">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>conglomerate</persq:corpusType></dc:subject>
+		<dc:title>DDBDP Greek Texts</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:ddbdp,Latin">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>conglomerate</persq:corpusType></dc:subject>
+		<dc:title>DDBDP Latin Texts</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:mpi,Archimedes Italian">
+		<dc:language>it</dc:language>
+		<dc:subject><persq:corpusType>conglomerate</persq:corpusType></dc:subject>
+		<dc:title>Archimedes Project Texts</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:mpi,Archimedes Latin">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>conglomerate</persq:corpusType></dc:subject>
+		<dc:title>Archimedes Project Texts</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,Greek Drama">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>conglomerate</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Greek Drama</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,Greek Hexameter">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>conglomerate</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Greek Hexameter</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,Greek Poetry">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>conglomerate</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Greek Poetry</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,Greek Prose">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>conglomerate</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Greek Prose</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,Greek Rhetoric">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>conglomerate</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Greek Rhetoric</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,Greek Texts">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>conglomerate</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Greek Texts</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,Greek Tragedy">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>conglomerate</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Greek Tragedy</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,Greek Medical Texts">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>conglomerate</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Greek Medical Texts</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,Latin Drama">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>conglomerate</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Latin Drama</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,Latin Medical Texts">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>conglomerate</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Latin Medical Texts</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,Latin Poetry">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>conglomerate</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Latin Poetry</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,Latin Prose">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>conglomerate</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Latin Prose</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,Latin Texts">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>conglomerate</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Latin Texts</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Aeschines">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Aeschines</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Aeschylus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Aeschylus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Ammianus Marcellinus">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Ammianus Marcellinus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Andocides">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Andocides</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Antiphon">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Antiphon</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Apollonius Rhodius">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Apollonius Rhodius</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Appian">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Appian</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Apuleius">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Apuleius</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Aratus">
+        <dc:language>greek</dc:language>
+        <dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+        <dc:title xml:lang="en">Aratus</dc:title>
+    </rdf:Description>
+    
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Aretaeus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Aretaeus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Aristophanes">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Aristophanes</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Aristotle">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Aristotle</dc:title>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Athenaeus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Athenaeus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Augustus">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Augustus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Bacchylides">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Bacchylides</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Boethius">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Boethius</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Caesar">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Caesar</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Callimachus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Callimachus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Catullus">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Catullus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Celsus">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Celsus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Cicero">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Cicero</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Columella">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Columella</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Colluthus">
+        <dc:language>greek</dc:language>
+        <dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+        <dc:title xml:lang="en">Colluthus</dc:title>
+    </rdf:Description>
+    
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Demades">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demades</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Demosthenes">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Dinarchus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Dinarchus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Diodorus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Diodorus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Diogenes">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Diogenes</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Epictetus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Epictetus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Euclid">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Euclid</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Euripides">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Euripides</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Flaccus">
+		<dc:language>latin</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Flaccus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Flavius Josephus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Flavius Josephus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Florus">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Florus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Galen">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Galen</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Gellius">
+		<dc:language>latin</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Gellius</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Herodotus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Herodotus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Heron">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Heron Alexandrinus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Hesiod">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Hesiod</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Hippocrates">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Hippocrates</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Homer">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Homer</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Homeric Hymns">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Homeric Hymns</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Horace">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Horace</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Hyperides">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Hyperides</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Isaeus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Isaeus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Isocrates">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Isocrates</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Juvenal">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Juvenal</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Livy">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Livy</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Lycophron">
+        <dc:language>greek</dc:language>
+        <dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+        <dc:title xml:lang="en">Lycophron</dc:title>
+    </rdf:Description>   
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Lucan">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Lucan</dc:title>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Lucian">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Lucian</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Lucretius">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Lucretius</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Lycurgus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Lycurgus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Lysias">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Lysias</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Martial">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Martial</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Nepos">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Nepos</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Nonnus">
+        <dc:language>greek</dc:language>
+        <dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+        <dc:title xml:lang="en">Nonnus</dc:title>
+    </rdf:Description>
+    
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,NT">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">New Testament</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Old Oligarch">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Old Oligarch</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Oppian">
+        	<dc:language>greek</dc:language>
+        	<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+        	<dc:title xml:lang="en">Oppian</dc:title>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Oppian of Apamea">
+        	<dc:language>greek</dc:language>
+        	<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+        	<dc:title xml:lang="en">Oppian of Apamea</dc:title>
+    	</rdf:Description>
+    
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Ovid">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Ovid</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Pausanias">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Pausanias</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Persius">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Persius</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Petronius">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Petronius</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Phaedrus">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Phaedrus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Pindar">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Pindar</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Plato">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plato</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Plautus">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plautus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Pliny the Elder">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Pliny the Elder</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Pliny the Younger">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Pliny the Younger</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Plutarch">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Polybius">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Polybius</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Propertius">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Propertius</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Pseudo-Apollodorus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Pseudo-Apollodorus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Pseudo-Plutarch">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Pseudo-Plutarch</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Quintilian">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Quintilian</dc:title>
+	</rdf:Description>
+
+    <rdf:Description rdf:about="Perseus:corpus:perseus,author,Quintus">
+        <dc:language>greek</dc:language>
+        <dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+        <dc:title xml:lang="en">Quintus</dc:title>
+    </rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Sallust">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Sallust</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Seneca">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Seneca</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Servius">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Servius</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Sophocles">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Sophocles</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Statius">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Statius</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Strabo">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Strabo</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Suetonius">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Suetonius</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Sulpicia">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title>Sulpicia</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Tacitus">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Tacitus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Terence">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Terence</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Theocritus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Theocritus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Theophrastus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Theophrastus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Thucydides">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Thucydides</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Tibullus">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Tibullus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Tryphiodorus">
+        <dc:language>greek</dc:language>
+        <dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+        <dc:title xml:lang="en">Tryphiodorus</dc:title>
+    </rdf:Description>
+    
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Vergil">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Vergil</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Vitruvius">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title>Vitruvius</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Vulgate">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title>Vulgate</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,author,Xenophon">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>author</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Xenophon</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Aeschines, Against Ctesiphon">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Aeschines, Against Ctesiphon</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Aeschines, Against Timarchus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Aeschines, Against Timarchus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Aeschines, On the Embassy">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Aeschines, On the Embassy</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Aeschylus, Agamemnon">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Aeschylus, Agamemnon</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Aeschylus, Eumenides">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Aeschylus, Eumenides</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Aeschylus, Libation Bearers">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Aeschylus, Libation Bearers</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Aeschylus, Persians">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Aeschylus, Persians</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Aeschylus, Prometheus Bound">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Aeschylus, Prometheus Bound</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Aeschylus, Seven Against Thebes">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Aeschylus, Seven Against Thebes</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Aeschylus, Suppliant Maidens">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Aeschylus, Suppliant Maidens</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Andocides, Against Alcibiades">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Andocides, Against Alcibiades</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Andocides, On his Return">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Andocides, On his Return</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Andocides, On the Mysteries">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Andocides, On the Mysteries</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Andocides, On the Peace">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Andocides, On the Peace</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Antiphon, Against the Stepmother for Poisoning">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Antiphon, Against the Stepmother for Poisoning</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Antiphon, First Tetralogy">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Antiphon, First Tetralogy</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Antiphon, On the Choreutes">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Antiphon, On the Choreutes</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Antiphon, On the murder or Herodes">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Antiphon, On the murder or Herodes</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Antiphon, Second Tetralogy">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Antiphon, Second Tetralogy</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Antiphon, Third Tetralogy">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Antiphon, Third Tetralogy</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Aristophanes, Acharnians">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Aristophanes, Acharnians</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Aristophanes, Birds">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Aristophanes, Birds</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Aristophanes, Clouds">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Aristophanes, Clouds</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Aristophanes, Ecclesiazusae">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Aristophanes, Ecclesiazusae</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Aristophanes, Frogs">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Aristophanes, Frogs</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Aristophanes, Knights">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Aristophanes, Knights</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Aristophanes, Lysistrata">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Aristophanes, Lysistrata</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Aristophanes, Peace">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Aristophanes, Peace</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Aristophanes, Plutus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Aristophanes, Plutus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Aristophanes, Thesmophoriazusae">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Aristophanes, Thesmophoriazusae</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Aristophanes, Wasps">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Aristophanes, Wasps</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Aristotle, Constitution of the Athenians">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Aristotle, Constitution of the Athenians</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Aristotle, Economics">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Aristotle, Economics</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Aristotle, Eudemian Ethics">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Aristotle, Eudemian Ethics</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Aristotle, Metaphysics">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Aristotle, Metaphysics</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Aristotle, Nicomachean Ethics">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Aristotle, Nicomachean Ethics</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Aristotle, Poetics">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Aristotle, Poetics</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Aristotle, Politics">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Aristotle, Politics</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Aristotle, Rhetoric">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Aristotle, Rhetoric</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Aristotle, Virtues and Vices">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Aristotle, Virtues and Vices</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Arrian, Arriani Nicomediensis Scripta Minora">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Arriani Nicomediensis Scripta Minora</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Bacchylides, Dithyrambs">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Bacchylides, Dithyrambs</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Bacchylides, Epinicians">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Bacchylides, Epinicians</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Caesar, Civil War">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Caesar, Civil War</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Caesar, Gallic War">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Caesar, Gallic War</dc:title>
+	</rdf:Description>
+	
+	<!--
+		<rdf:Description rdf:about="Perseus:corpus:perseus,work,Catullus, Poems">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Catullus, Poems</dc:title>
+		</rdf:Description>
+	-->
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Cicero, Against Catiline">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Cicero, Against Catiline</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Cicero, Against Piso">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Cicero, Against Piso</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Cicero, Against Vatinius">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Cicero, Against Vatinius</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Cicero, Against Verres">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Cicero, Against Verres</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Cicero, Divinatio against Q. Caecilius">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Cicero, Divinatio against Q. Caecilius</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Cicero, For Aemilius Scaurus">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Cicero, For Aemilius Scaurus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Cicero, For Archias">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Cicero, For Archias</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Cicero, For Aulus Caecina">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Cicero, For Aulus Caecina</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Cicero, For Aulus Cluentius">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Cicero, For Aulus Cluentius</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Cicero, For Cornelius Balbus">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Cicero, For Cornelius Balbus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Cicero, For Flaccus">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Cicero, For Flaccus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Cicero, For King Deiotarius">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Cicero, For King Deiotarius</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Cicero, For Ligarius">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Cicero, For Ligarius</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Cicero, For Lucius Murena">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Cicero, For Lucius Murena</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Cicero, For Marcellus">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Cicero, For Marcellus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Cicero, For Marcus Fonteius">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Cicero, For Marcus Fonteius</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Cicero, For Marcus Tullius">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Cicero, For Marcus Tullius</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Cicero, For Milo">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Cicero, For Milo</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Cicero, For Plancius">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Cicero, For Plancius</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Cicero, For Publius Quinctius">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Cicero, For Publius Quinctius</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Cicero, For Quintus Roscius the Actor">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Cicero, For Quintus Roscius the Actor</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Cicero, For Rabirius Postumus">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Cicero, For Rabirius Postumus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Cicero, For Rabirius on a Charge of Treason">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Cicero, For Rabirius on a Charge of Treason</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Cicero, For Sestius">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Cicero, For Sestius</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Cicero, For Sextus Roscius of Ameria">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Cicero, For Sextus Roscius of Ameria</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Cicero, For Sulla">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Cicero, For Sulla</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Cicero, In the Senate after his Return">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Cicero, In the Senate after his Return</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Cicero, Letters to Atticus">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Cicero, Letters to Atticus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Cicero, Letters to Brutus">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Cicero, Letters to Brutus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Cicero, Letters to his Friends">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Cicero, Letters to his Friends</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Cicero, Letters to his brother Quintus">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Cicero, Letters to his brother Quintus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Cicero, On Pompeys Command">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Cicero, On Pompey's Command</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Cicero, On his House">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Cicero, On his House</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Cicero, On the Agrarian Law">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Cicero, On the Agrarian Law</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Cicero, On the Consular Provinces">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Cicero, On the Consular Provinces</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Cicero, On the Responses of the Haruspices">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Cicero, On the Responses of the Haruspices</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Cicero, Philippics">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Cicero, Philippics</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Cicero, To the Citizens after his Return">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Cicero, To the Citizens after his Return</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Cicero, Essay on Running for Consul">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Cicero, Essay on Running for Consul</dc:title>
+	</rdf:Description>
+	
+	<!--
+		<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demades, On the Twelve Years">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demades, On the Twelve Years</dc:title>
+		</rdf:Description>
+	-->
+
+    <rdf:Description rdf:about="Perseus:corpus:perseus,work,Columella, De re rustica">
+        <dc:language>la</dc:language>
+        <dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+        <dc:title xml:lang="en">Columella, De re rustica</dc:title>
+    </rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Against Androtion">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Against Androtion</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Against Apatourius">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Against Apatourius</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Against Aphobus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Against Aphobus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Against Aphobus 1">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Against Aphobus 1</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Against Aphobus 2">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Against Aphobus 2</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Against Aristocrates">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Against Aristocrates</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Against Aristogiton 1">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Against Aristogiton 1</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Against Aristogiton 2">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Against Aristogiton 2</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Against Boeotus 1">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Against Boeotus 1</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Against Boeotus 2">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Against Boeotus 2</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Against Callicles">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Against Callicles</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Against Callippus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Against Callippus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Against Conon">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Against Conon</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Against Dionysodorus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Against Dionysodorus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Against Eubulides">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Against Eubulides</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Against Evergus and Mnesibulus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Against Evergus and Mnesibulus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Against Lacritus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Against Lacritus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Against Leochares">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Against Leochares</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Against Leptines">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Against Leptines</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Against Macartatus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Against Macartatus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Against Midias">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Against Midias</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Against Nausimachus and Xenopeithes">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Against Nausimachus and Xenopeithes</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Against Neaera">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Against Neaera</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Against Nicostratus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Against Nicostratus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Against Olympiodorus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Against Olympiodorus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Against Onetor">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Against Onetor</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Against Pantaenetus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Against Pantaenetus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Against Phaenippus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Against Phaenippus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Against Phormio">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Against Phormio</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Against Polycles">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Against Polycles</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Against Spudias">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Against Spudias</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Against Stephanus 1">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Against Stephanus 1</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Against Stephanus 2">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Against Stephanus 2</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Against Theocrines">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Against Theocrines</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Against Timocrates">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Against Timocrates</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Against Timotheus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Against Timotheus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Against Zenothemis">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Against Zenothemis</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Erotic Essay">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Erotic Essay</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Exordia">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Exordia</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, For Phormio">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, For Phormio</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, For the Megalopolitans">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, For the Megalopolitans</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Funeral Speech">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Funeral Speech</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Letters">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Letters</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Olynthiac 1">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Olynthiac 1</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Olynthiac 2">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Olynthiac 2</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Olynthiac 3">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Olynthiac 3</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, On Organization">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, On Organization</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, On the Accession of Alexander">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, On the Accession of Alexander</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, On the Chersonese">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, On the Chersonese</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, On the Crown">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, On the Crown</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, On the False Embassy">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, On the False Embassy</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, On the Halonnesus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, On the Halonnesus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, On the Liberty of the Rhodians">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, On the Liberty of the Rhodians</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, On the Navy">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, On the Navy</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, On the Peace">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, On the Peace</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, On the Trierarchic Crown">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, On the Trierarchic Crown</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Philip">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Philip</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Philippic 1">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Philippic 1</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Philippic 2">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Philippic 2</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Philippic 3">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Philippic 3</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Philippic 4">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Philippic 4</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Demosthenes, Reply to Philip">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Demosthenes, Reply to Philip</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Dinarchus, Against Aristogiton">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Dinarchus, Against Aristogiton</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Dinarchus, Against Demosthenes">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Dinarchus, Against Demosthenes</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Dinarchus, Against Philocles">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Dinarchus, Against Philocles</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Diodorus, Historical Library">
+        <dc:language>greek</dc:language>
+        <dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+        <dc:title xml:lang="en">Diodorus, Historical Library</dc:title>
+    </rdf:Description>
+    
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Euclid, Elements">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Euclid, Elements</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Euripides, Alcestis">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Euripides, Alcestis</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Euripides, Andromache">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Euripides, Andromache</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Euripides, Bacchae">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Euripides, Bacchae</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Euripides, Cyclops">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Euripides, Cyclops</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Euripides, Electra">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Euripides, Electra</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Euripides, Hecuba">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Euripides, Hecuba</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Euripides, Helen">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Euripides, Helen</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Euripides, Heracles">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Euripides, Heracles</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Euripides, Heraclidae">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Euripides, Heraclidae</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Euripides, Hippolytus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Euripides, Hippolytus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Euripides, Ion">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Euripides, Ion</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Euripides, Iphigeneia in Aulis">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Euripides, Iphigeneia in Aulis</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Euripides, Iphigeneia in Taurus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Euripides, Iphigeneia in Taurus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Euripides, Medea">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Euripides, Medea</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Euripides, Orestes">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Euripides, Orestes</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Euripides, Phoenician Women">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Euripides, Phoenician Women</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Euripides, Rhesus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Euripides, Rhesus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Euripides, Suppliants">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Euripides, Suppliants</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Euripides, Trojan Women">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Euripides, Trojan Women</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Flavius Josephus, Against Apion">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Flavius Josephus, Against Apion</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Flavius Josephus, Jewish Antiquities">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Flavius Josephus, Jewish Antiquities</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Flavius Josephus, Life of Josephus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Flavius Josephus, Life of Josephus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Flavius Josephus, The Jewish War">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Flavius Josephus, The Jewish War</dc:title>
+	</rdf:Description>
+	
+	<!--
+		<rdf:Description rdf:about="Perseus:corpus:perseus,work,Herodotus, Histories">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Herodotus, Histories</dc:title>
+		</rdf:Description>
+	-->
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Hesiod, Shield of Heracles">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Hesiod, Shield of Heracles</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Hesiod, Theogony">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Hesiod, Theogony</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Hesiod, Works and Days">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Hesiod, Works and Days</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Homer, Iliad">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Homer, Iliad</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Homer, Odyssey">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Homer, Odyssey</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Homeric Hymns, Hymn to Aphrodite">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Homeric Hymns, Hymn to Aphrodite</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Homeric Hymns, Hymn to Apollo">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Homeric Hymns, Hymn to Apollo</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Homeric Hymns, Hymn to Ares">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Homeric Hymns, Hymn to Ares</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Homeric Hymns, Hymn to Artemis">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Homeric Hymns, Hymn to Artemis</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Homeric Hymns, Hymn to Asclepius">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Homeric Hymns, Hymn to Asclepius</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Homeric Hymns, Hymn to Athena">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Homeric Hymns, Hymn to Athena</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Homeric Hymns, Hymn to Demeter">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Homeric Hymns, Hymn to Demeter</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Homeric Hymns, Hymn to Dionysus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Homeric Hymns, Hymn to Dionysus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Homeric Hymns, Hymn to Dioscuri">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Homeric Hymns, Hymn to Dioscuri</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Homeric Hymns, Hymn to Earth">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Homeric Hymns, Hymn to Earth</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Homeric Hymns, Hymn to Helios">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Homeric Hymns, Hymn to Helios</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Homeric Hymns, Hymn to Hephaestus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Homeric Hymns, Hymn to Hephaestus</dc:title>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Homeric Hymns, Hymn to Hera">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Homeric Hymns, Hymn to Hera</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Homeric Hymns, Hymn to Heracles">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Homeric Hymns, Hymn to Heracles</dc:title>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Homeric Hymns, Hymn to Hermes">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Homeric Hymns, Hymn to Hermes</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Homeric Hymns, Hymn to Hestia">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Homeric Hymns, Hymn to Hestia</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Homeric Hymns, Hymn to Pan">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Homeric Hymns, Hymn to Pan</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Homeric Hymns, Hymn to Poseidon">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Homeric Hymns, Hymn to Poseidon</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Homeric Hymns, Hymn to the Mother of the Gods">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Homeric Hymns, Hymn to the Mother of the Gods</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Homeric Hymns, Hymn to the Muses and Apollo">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Homeric Hymns, Hymn to the Muses and Apollo</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Homeric Hymns, Hymn to Selene">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Homeric Hymns, Hymn to Selene</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Homeric Hymns, Hymn to Zeus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Homeric Hymns, Hymn to Zeus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Horace, Odes">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Horace, Odes</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Horace,Ars Poetica">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title>Horace, Ars poetica</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Horace,Satires">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title>Horace, Satires</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Hyperides, Against Athenogenes">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Hyperides, Against Athenogenes</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Hyperides, Against Demosthenes">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Hyperides, Against Demosthenes</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Hyperides, Against Philippides">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Hyperides, Against Philippides</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Hyperides, Funeral Oration">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Hyperides, Funeral Oration</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Hyperides, In Defence of Euxenippus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Hyperides, In Defence of Euxenippus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Hyperides, In Defence of Lycophron">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Hyperides, In Defence of Lycophron</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Isaeus, Apollodorus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Isaeus, Apollodorus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Isaeus, Aristarchus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Isaeus, Aristarchus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Isaeus, Astyphilus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Isaeus, Astyphilus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Isaeus, Ciron">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Isaeus, Ciron</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Isaeus, Cleonymus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Isaeus, Cleonymus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Isaeus, Dicaeogenes">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Isaeus, Dicaeogenes</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Isaeus, Euphiletus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Isaeus, Euphiletus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Isaeus, Hagnias">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Isaeus, Hagnias</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Isaeus, Menecles">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Isaeus, Menecles</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Isaeus, Nicostratus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Isaeus, Nicostratus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Isaeus, Philoctemon">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Isaeus, Philoctemon</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Isaeus, Pyrrhus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Isaeus, Pyrrhus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Isocrates, Aegineticus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Isocrates, Aegineticus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Isocrates, Against Callimachus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Isocrates, Against Callimachus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Isocrates, Against Euthynus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Isocrates, Against Euthynus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Isocrates, Against Lochites">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Isocrates, Against Lochites</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Isocrates, Against the Sophists">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Isocrates, Against the Sophists</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Isocrates, Antidosis">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Isocrates, Antidosis</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Isocrates, Archidamus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Isocrates, Archidamus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Isocrates, Areopagiticus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Isocrates, Areopagiticus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Isocrates, Busiris">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Isocrates, Busiris</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Isocrates, Evagoras">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Isocrates, Evagoras</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Isocrates, Helen">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Isocrates, Helen</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Isocrates, Nicocles or the Cyprians">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Isocrates, Nicocles or the Cyprians</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Isocrates, On the Peace">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Isocrates, On the Peace</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Isocrates, On the team of horses">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Isocrates, On the team of horses</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Isocrates, Panathenaicus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Isocrates, Panathenaicus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Isocrates, Panegyricus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Isocrates, Panegyricus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Isocrates, Plataicus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Isocrates, Plataicus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Isocrates, To Demonicus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Isocrates, To Demonicus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Isocrates, To Nicocles">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Isocrates, To Nicocles</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Isocrates, To Philip">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Isocrates, To Philip</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Isocrates, Trapeziticus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Isocrates, Trapeziticus</dc:title>
+	</rdf:Description>
+	
+	<!--
+		<rdf:Description rdf:about="Perseus:corpus:perseus,work,Livy, The History of Rome">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Livy, The History of Rome</dc:title>
+		</rdf:Description>
+		
+		<rdf:Description rdf:about="Perseus:corpus:perseus,work,Lucretius, De Rerum Natura">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Lucretius, De Rerum Natura</dc:title>
+		</rdf:Description>
+		
+		<rdf:Description rdf:about="Perseus:corpus:perseus,work,Lycurgus, Against Leocrates">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Lycurgus, Against Leocrates</dc:title>
+		</rdf:Description>
+	-->
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Lysias, Accusation of Calumny">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Lysias, Accusation of Calumny</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Lysias, Against Agoratus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Lysias, Against Agoratus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Lysias, Against Alcibiades 1">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Lysias, Against Alcibiades 1</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Lysias, Against Alcibiades 2">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Lysias, Against Alcibiades 2</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Lysias, Against Andocides">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Lysias, Against Andocides</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Lysias, Against Diogeiton">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Lysias, Against Diogeiton</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Lysias, Against Epicrates and his Fellow Envoys">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Lysias, Against Epicrates and his Fellow Envoys</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Lysias, Against Eratosthenes">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Lysias, Against Eratosthenes</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Lysias, Against Ergocles">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Lysias, Against Ergocles</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Lysias, Against Nicomachus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Lysias, Against Nicomachus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Lysias, Against Pancleon">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Lysias, Against Pancleon</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Lysias, Against Philocrates">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Lysias, Against Philocrates</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Lysias, Against Philon">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Lysias, Against Philon</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Lysias, Against Simon">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Lysias, Against Simon</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Lysias, Against Theomnestus 1">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Lysias, Against Theomnestus 1</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Lysias, Against Theomnestus 2">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Lysias, Against Theomnestus 2</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Lysias, Against the Corn Dealers">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Lysias, Against the Corn Dealers</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Lysias, Against the Subversion of the Ancestral Constitution of Athens">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Lysias, Against the Subversion of the Ancestral Constitution of Athens</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Lysias, Defence against a Charge of Taking Bribes">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Lysias, Defence against a Charge of Taking Bribes</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Lysias, Defence against a Charge of subverting the Democracy">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Lysias, Defence against a Charge of subverting the Democracy</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Lysias, For Callias">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Lysias, For Callias</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Lysias, For Mantitheus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Lysias, For Mantitheus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Lysias, For Polystratus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Lysias, For Polystratus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Lysias, For the Soldier">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Lysias, For the Soldier</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Lysias, Funeral Oration">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Lysias, Funeral Oration</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Lysias, Olympic Oration">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Lysias, Olympic Oration</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Lysias, On a Wound by Premeditation">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Lysias, On a Wound by Premeditation</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Lysias, On the Confiscation of the Property of the Brother of Nicias">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Lysias, On the Confiscation of the Property of the Brother of Nicias</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Lysias, On the Murder of Eratosthenes">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Lysias, On the Murder of Eratosthenes</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Lysias, On the Olive Stump">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Lysias, On the Olive Stump</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Lysias, On the Property of Aristophanes">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Lysias, On the Property of Aristophanes</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Lysias, On the Property of Eraton">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Lysias, On the Property of Eraton</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Lysias, On the Refusal of a Pension">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Lysias, On the Refusal of a Pension</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Lysias, On the Scrutiny of Evandros">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Lysias, On the Scrutiny of Evandros</dc:title>
+	</rdf:Description>
+	
+	<!--
+		<rdf:Description rdf:about="Perseus:corpus:perseus,work,Old Oligarch, Constitution of the Athenians">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Old Oligarch, Constitution of the Athenians</dc:title>
+		</rdf:Description>
+	-->
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Ovid, Amores">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Ovid, Amores</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Ovid, Ars Amatoria">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Ovid, Ars Amatoria</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Ovid, Epistulae">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Ovid, Epistulae</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Ovid, Fasti">
+        <dc:language>la</dc:language>
+        <dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+        <dc:title xml:lang="en">Ovid, Fasti</dc:title>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="Perseus:corpus:perseus,work,Ovid, Ibis">
+        <dc:language>la</dc:language>
+        <dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+        <dc:title xml:lang="en">Ovid, Ibis</dc:title>
+    </rdf:Description>        
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Ovid, Medicamina Faciei Femineae">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Ovid, Medicamina Faciei Femineae</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Ovid, Metamorphoses">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Ovid, Metamorphoses</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Ovid, Remedia Amoris">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Ovid, Remedia Amoris</dc:title>
+	</rdf:Description>
+	
+	<!--
+		<rdf:Description rdf:about="Perseus:corpus:perseus,work,Pausanias, Description of Greece">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Pausanias, Description of Greece</dc:title>
+		</rdf:Description>
+	-->
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Pindar, Isthmean">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Pindar, Isthmean</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Pindar, Nemean">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Pindar, Nemean</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Pindar, Olympian">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Pindar, Olympian</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Pindar, Pythian">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Pindar, Pythian</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plato, Alcibiades 1">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plato, Alcibiades 1</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plato, Alcibiades 2">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plato, Alcibiades 2</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plato, Apology">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plato, Apology</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plato, Charmides">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plato, Charmides</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plato, Cleitophon">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plato, Cleitophon</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plato, Cratylus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plato, Cratylus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plato, Critias">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plato, Critias</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plato, Crito">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plato, Crito</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plato, Epinomis">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plato, Epinomis</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plato, Euthydemus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plato, Euthydemus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plato, Euthyphro">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plato, Euthyphro</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plato, Gorgias">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plato, Gorgias</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plato, Greater Hippias">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plato, Greater Hippias</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plato, Hipparchus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plato, Hipparchus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plato, Ion">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plato, Ion</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plato, Laches">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plato, Laches</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plato, Laws">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plato, Laws</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plato, Lesser Hippias">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plato, Lesser Hippias</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plato, Letters">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plato, Letters</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plato, Lovers">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plato, Lovers</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plato, Lysis">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plato, Lysis</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plato, Menexenus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plato, Menexenus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plato, Meno">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plato, Meno</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plato, Minos">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plato, Minos</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plato, Parmenides">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plato, Parmenides</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plato, Phaedo">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plato, Phaedo</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plato, Phaedrus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plato, Phaedrus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plato, Philebus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plato, Philebus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plato, Protagoras">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plato, Protagoras</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plato, Republic">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plato, Republic</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plato, Sophist">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plato, Sophist</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plato, Statesman">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plato, Statesman</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plato, Symposium">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plato, Symposium</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plato, Theaetetus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plato, Theaetetus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plato, Theages">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plato, Theages</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plato, Timaeus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plato, Timaeus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plautus, Amphitruo">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plautus, Amphitruo</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plautus, Asinaria">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plautus, Asinaria</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plautus, Aulularia">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plautus, Aulularia</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plautus, Bacchides">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plautus, Bacchides</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plautus, Captivi">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plautus, Captivi</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plautus, Casina">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plautus, Casina</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plautus, Cistellaria">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plautus, Cistellaria</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plautus, Curculio">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plautus, Curculio</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plautus, Epidicus">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plautus, Epidicus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plautus, Menaechmi">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plautus, Menaechmi</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plautus, Mercator">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plautus, Mercator</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plautus, Miles Gloriosus">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plautus, Miles Gloriosus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plautus, Mostellaria">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plautus, Mostellaria</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plautus, Persa">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plautus, Persa</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plautus, Poenulus">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plautus, Poenulus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plautus, Pseudolus">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plautus, Pseudolus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plautus, Rudens">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plautus, Rudens</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plautus, Stichus">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plautus, Stichus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plautus, Trinummus">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plautus, Trinummus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plautus, Truculentus">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plautus, Truculentus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Aemilius Paulus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Aemilius Paulus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Agesilaus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Agesilaus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Agis">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Agis</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Alcibiades">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Alcibiades</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Alexander">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Alexander</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Antony">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Antony</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Aratus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Aratus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Aristeides">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Aristeides</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Artaxerxes">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Artaxerxes</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Brutus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Brutus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Caesar">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Caesar</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Caius Gracchus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Caius Gracchus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Caius Marcius Coriolanus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Caius Marcius Coriolanus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Caius Marius">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Caius Marius</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Camillus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Camillus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Cato the Younger">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Cato the Younger</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Cicero">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Cicero</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Cimon">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Cimon</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Cleomenes">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Cleomenes</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Crassus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Crassus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Demetrius">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Demetrius</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Demosthenes">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Demosthenes</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Dion">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Dion</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Eumenes">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Eumenes</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Fabius Maximus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Fabius Maximus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Galba">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Galba</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Lucullus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Lucullus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Lycurgus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Lycurgus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Lysander">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Lysander</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Marcellus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Marcellus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Marcus Cato">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Marcus Cato</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Moralia">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Moralia</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Nicias">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Nicias</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Numa">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Numa</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Otho">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Otho</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Pelopidas">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Pelopidas</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Pericles">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Pericles</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Philopoemen">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Philopoemen</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Phocion">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Phocion</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Pompey">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Pompey</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Publicola">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Publicola</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Pyrrhus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Pyrrhus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Romulus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Romulus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Sertorius">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Sertorius</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Solon">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Solon</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Sulla">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Sulla</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Themistocles">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Themistocles</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Theseus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Theseus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Tiberius Gracchus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Tiberius Gracchus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Timoleon">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Timoleon</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Plutarch, Titus Flamininus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Plutarch, Titus Flamininus</dc:title>
+	</rdf:Description>
+	
+	<!--
+		<rdf:Description rdf:about="Perseus:corpus:perseus,work,Propertius,Elegies">
+		<dc:language>la</dc:language>
+		<dc:title>Elegies</dc:title>
+		</rdf:Description>
+		
+		<rdf:Description rdf:about="Perseus:corpus:perseus,work,Pseudo-Apollodorus, Library">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Pseudo-Apollodorus, Library</dc:title>
+		</rdf:Description>
+		
+		<rdf:Description rdf:about="Perseus:corpus:perseus,work,Servius, Commentary on Vergil's Aeneid">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Servius, Commentary on Vergil's Aeneid</dc:title>
+		</rdf:Description>
+	-->
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Scriptores Historiae Augustae">
+		<dc:language>latin</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Scriptores Historiae Augustae</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Sidonius Apollinaris, Carmina">
+        <dc:language>la</dc:language>
+        <dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+        <dc:title xml:lang="en">Sidonius Apollinaris, Carmina</dc:title>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="Perseus:corpus:perseus,work,Sidonius Apollinaris, Epistulae">
+        <dc:language>la</dc:language>
+        <dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+        <dc:title xml:lang="en">Sidonius Apollinaris, Epistuale</dc:title>
+    </rdf:Description>
+    
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Sophocles, Ajax">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Sophocles, Ajax</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Sophocles, Antigone">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Sophocles, Antigone</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Sophocles, Electra">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Sophocles, Electra</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Sophocles, Ichneutae">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Sophocles, Ichneutae</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Sophocles, Oedipus Tyrannus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Sophocles, Oedipus Tyrannus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Sophocles, Oedipus at Colonus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Sophocles, Oedipus at Colonus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Sophocles, Philoctetes">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Sophocles, Philoctetes</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Sophocles, Trachiniae">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Sophocles, Trachiniae</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Suetonius, Vitae Caesarum">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Suetonius, Vitae Caesarum</dc:title>
+	</rdf:Description>
+	
+	<!--
+		<rdf:Description rdf:about="Perseus:corpus:perseus,work,Sulpicia, Poems">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title>Sulpicia, Poems</dc:title>
+		</rdf:Description>
+	-->
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Tacitus, Agricola">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Tacitus, Agricola</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Tacitus, Annales">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Tacitus, Annales</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Tacitus, Dialogus">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Tacitus, Dialogus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Tacitus, Germania">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Tacitus, Germania</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Tacitus, Historiae">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Tacitus, Historiae</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Terence, Adelphi">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Terence, Adelphi</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Terence, Andria">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Terence, Andria</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Terence, Eunuchus">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Terence, Eunuchus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Terence, Heautontimorumenos">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Terence, Heautontimorumenos</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Terence, Hecyra">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Terence, Hecyra</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Terence, Phormio">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Terence, Phormio</dc:title>
+	</rdf:Description>
+	
+	<!--
+		<rdf:Description rdf:about="Perseus:corpus:perseus,work,Thucydides, Histories">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Thucydides, Histories</dc:title>
+		</rdf:Description>
+	-->
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Vergil, Aeneid">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Vergil, Aeneid</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Vergil, Eclogues">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Vergil, Eclogues</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Vergil, Georgics">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Vergil, Georgics</dc:title>
+	</rdf:Description>
+	
+	<!--
+		<rdf:Description rdf:about="Perseus:corpus:perseus,work,Vitruvius, On Architecture">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title>Vitruvius, On Architecture</dc:title>
+		</rdf:Description>
+	-->
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Xenophon, Agesilaus">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Xenophon, Agesilaus</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Xenophon, Anabasis">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Xenophon, Anabasis</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Xenophon, Apology">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Xenophon, Apology</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Xenophon, Constitution of the Lacedaimonians">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Xenophon, Constitution of the Lacedaimonians</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Xenophon, Cyropaedia">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Xenophon, Cyropaedia</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Xenophon, Economics">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Xenophon, Economics</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Xenophon, Hellenica">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Xenophon, Hellenica</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Xenophon, Hiero">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Xenophon, Hiero</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Xenophon, Memorabilia">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Xenophon, Memorabilia</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Xenophon, On Hunting">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Xenophon, On Hunting</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Xenophon, On the Art of Horsemanship">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Xenophon, On the Art of Horsemanship</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Xenophon, On the Cavalry Commander">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Xenophon, On the Cavalry Commander</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Xenophon, Symposium">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Xenophon, Symposium</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Xenophon, Ways and Means">
+		<dc:language>greek</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Xenophon, Ways and Means</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Cicero, For Marcus Caelius">
+		<dc:language>la</dc:language>
+		<dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+		<dc:title xml:lang="en">Cicero, For Marcus Caelius</dc:title>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Lane, An Arabic-English Lexicon">
+        <dc:language>ar</dc:language>
+        <dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+        <dc:title xml:lang="en">Lane, An Arabic English Lexicon</dc:title>
+    </rdf:Description>
+	<rdf:Description rdf:about="Perseus:corpus:perseus,work,Dionysius, Antiquitates Romanae">
+        <dc:language>greek</dc:language>
+        <dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+        <dc:title xml:lang="en">Dionysius of Halicarnassus, Antiquitates Romanae</dc:title>
+    </rdf:Description>
+    <rdf:Description rdf:about="Perseus:corpus:perseus,work,Aelius Aristides, Orationes">
+        <dc:language>greek</dc:language>
+        <dc:subject><persq:corpusType>work</persq:corpusType></dc:subject>
+        <dc:title xml:lang="en">Aelius Aristides, Orationes</dc:title>
+    </rdf:Description>
+			
+</rdf:RDF>
