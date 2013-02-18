@@ -2,7 +2,7 @@ This directory contains three bash scripts to be used with the Perseus Classics 
 
     (1) all_xml_to_new_directory.sh
     This script finds all XML files (Latin and Greek) within 
-    Classics and copies it into a directory called 
+    Classics and copies them into a directory called 
     "Perseus_classics_xml".
     
     (2) all_latin_xml_to_new_directory.sh

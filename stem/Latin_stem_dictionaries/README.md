@@ -1,0 +1,1 @@
+The file "Latin_stem.txt" is a stemming text. "Latin_stem_all_data.ods" contains morphological information on each inflected form and a # from the Perseus project intended to be unique to each headword.
