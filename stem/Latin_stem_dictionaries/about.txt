@@ -1,1 +1,0 @@
-Halfway through reorganizing Latin morphology ("latin-lemma-new-colums.ods") to more useful two-column (or maybe three-column) format.

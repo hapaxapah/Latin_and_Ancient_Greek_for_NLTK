@@ -1,5 +1,0 @@
-Lemmata and analyses which I took from "Perseus_Diogenes_data/diogenes-3.1.6/diogenes/perl/Perseus_Data" of Heslin's Diogenes[1]. Originally from Perseus (but what version and where?). Simple tab formats, with unique # corresponding to each lexical entry (i.e., stem).
-
----> These need to be altered into an NLTK-friendly coding for lemmata, stemmming, and automatic morphological analysis.
-
-[1] http://sourceforge.net/projects/diogenes/files/diogenes/3.1.6/
