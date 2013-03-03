@@ -1,4 +1,4 @@
-This directory contains a working program ("lemmata_replacements.py") which lemmatizes raw Latin text. For a working example, run:
+This directory contains a working program ("latin_lemma.py") which lemmatizes raw Latin text. For a working example, run:
 
     python example.py
 
