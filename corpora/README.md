@@ -2,8 +2,10 @@ To access download your own corpora:
 
 1. Latin Library
 To download the Latin Library corpus ("http://www.thelatinlibrary.com/indices.html"), enter:
+
     python Latin_Library_download.py
-Files will be downloaded into same directory in which it was called.
+
+Files will be downloaded into the directory in which the program was ran.
 
 2. Perseus Project
 For the Perseus Project's Greek and Latin files[1], enter:
