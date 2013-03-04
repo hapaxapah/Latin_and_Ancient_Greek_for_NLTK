@@ -1,0 +1,386 @@
+<HTML><HEAD>
+<TITLE>Latin Vocabulary</TITLE>
+<SCRIPT>
+
+var numWords = 184
+var correctCount = 0
+var wrongCount = 0
+var wordnum = 1
+
+function makeArray(a)
+
+{
+	this.length = a
+	for(var i = 1 ; i< a ; i++)
+	{
+		this[i] = 0
+	}
+	return this
+}
+
+function makeWord(word, meaning)
+
+{
+	this.numArguments = makeWord.arguments.length
+	this.word = word
+	this.meaning = meaning
+	if (makeWord.arguments.length > 2)
+	{
+		this.meaning2 = makeWord.arguments[2]
+	}
+	if(makeWord.arguments.length > 3)
+	{
+		this.meaning3 = makeWord.arguments[3]
+	}
+	return this
+}
+
+var words = new makeArray(numWords)
+words[1] = new makeWord("nascor, nasci, natus sum","to be born")
+words[2] = new makeWord("natu","by birth")
+words[3] = new makeWord("speciosus, -a, -um","beautiful","pretty")
+words[4] = new makeWord("idonee","suitably","appropriately")
+words[5] = new makeWord("celebro, -are","to celebrate","to honor")
+words[6] = new makeWord("laus, laudis (f.)","praise")
+words[7] = new makeWord("praecipuus, -a, -um","extraordinary","special")
+words[8] = new makeWord("praeclarus, -a, -um","remarkable","famous")
+words[9] = new makeWord("pulchritudo, -dinis (f.)","beauty")
+words[10] = new makeWord("nec . . . nec","neither ... nor","neither . . . nor")
+words[11] = new makeWord("exprimo, -ere, -pressi, -pressum","to express")
+words[12] = new makeWord("sermo, -onis (m.)","speech","talk")
+words[13] = new makeWord("formositas, -tatis (f.)","beauty")
+words[14] = new makeWord("admiror, -ari, -atus sum","to be amazed","to wonder at","to wonder")
+words[15] = new makeWord("veneror, -ari, -atus sum","to worship","to revere","to honor")
+words[16] = new makeWord("pervado, -ere, -vasi, -vasum","to travel through")
+words[17] = new makeWord("caerulus, -a, -um","dark blue")
+words[18] = new makeWord("pario, -ere, peperci, partum","to give birth to","to give birth")
+words[19] = new makeWord("conversor, -ari, -atus sum","to associate with","to live among","to live")
+words[20] = new makeWord("exitium, -i (n.)","destruction","ruin")
+words[21] = new makeWord("latius","farther","more widely")
+words[22] = new makeWord("in dies","day by day")
+words[23] = new makeWord("opinio, -ionis (f.)","opinion","belief")
+words[24] = new makeWord("plurimus, -a, -um","most","many")
+words[25] = new makeWord("pervagor, -ari, -atus sum","to spread through","to wander through")
+words[26] = new makeWord("annuo, -ere, -ui","to nod","to assent","to approve")
+words[27] = new makeWord("conspectus, -us (m.)","sight","view")
+words[28] = new makeWord("sacrum, -i (n.)","sacred object","sacred rite")
+words[29] = new makeWord("praetereo, -ire, -ivi (-ii), -itum","to pass by","to omit","to neglect")
+words[30] = new makeWord("carcer, -eris (m.)","prison")
+words[31] = new makeWord("deformo, -are, -avi, -atum","to deface","to disfigure")
+words[32] = new makeWord("caerimoniae, -arum (f.pl.)","ceremonies")
+words[33] = new makeWord("neglego, -ere, -glexi, -gletum","to neglect","to omit")
+words[34] = new makeWord("supplico, -are + dat.","to pray to","to beg","to entreat")
+words[35] = new makeWord("mane (adv.)","in the morning")
+words[36] = new makeWord("flos, floris (m.)","flower")
+words[37] = new makeWord("sero, -ere, -ui, -tus","to entwine","to wreath")
+words[38] = new makeWord("precor, -ari, -atus sum","to pray","to pray to","to beseech")
+words[39] = new makeWord("caelestis, -e","heavenly"," divine")
+words[40] = new makeWord("cultus, -us (m.)","worship")
+words[41] = new makeWord("incendo, -ere, -di, -sus","to set on fire","to inflame","to burn")
+words[42] = new makeWord("quasso, -are, -avi, -atum","to shake")
+words[43] = new makeWord("en","behold")
+words[44] = new makeWord("priscus, -a, -um","ancient","original")
+words[45] = new makeWord("parens, -entis (c.)","parent","father")
+words[46] = new makeWord("mortalis, -e","mortal")
+words[47] = new makeWord("partior, -iri, -itus sum","to share")
+words[48] = new makeWord("impune","with impunity")
+words[49] = new makeWord("usurpo, -are, -avi, -atum","to usurp","to make use of")
+words[50] = new makeWord("me paenitet","I regret")
+words[51] = new makeWord("confestim","immediately","right away")
+words[52] = new makeWord("pinnatus, -a, -um","winged","feathered")
+words[53] = new makeWord("flagitium, -i (n.)","outrage","scandal","crime")
+words[54] = new makeWord("maternus, -a, -um","maternal")
+words[55] = new makeWord("caritas, -tatis (f.)","love","affection")
+words[56] = new makeWord("foedus, -eris (n.)","treaty","bond","tie")
+words[57] = new makeWord("ulciscor, ulcisci, ultus sum","to avenge")
+words[58] = new makeWord("flagrans, -antis","blazing","flaming")
+words[59] = new makeWord("infimus, -a, -um","lowest","worst")
+words[60] = new makeWord("suavior, -iari, -iatus sum","to kiss")
+words[61] = new makeWord("obsequium, -i (n.)","obedience","compliance")
+words[62] = new makeWord("auriga, -ae (m.)","charioteer")
+words[63] = new makeWord("persulto, -are","to prance about")
+words[64] = new makeWord("caterva, -ae (f.)","throng","crowd")
+words[65] = new makeWord("leniter (adv.)","gently","softly","mildly")
+words[66] = new makeWord("nato, -are, -avi, -atum","to swim","to float")
+words[67] = new makeWord("pergo, -ere, -rexi, -rectum","to proceed on","to go","to continue")
+words[68] = new makeWord("comitor, -ari, -atus sum","to accompany")
+words[69] = new makeWord("exercitus, -us (m.)","army")
+words[70] = new makeWord("decus, -oris (n.)","beauty","glory")
+words[71] = new makeWord("fructus, -us (m.)","fruit","produce","profit")
+words[72] = new makeWord("percipio, -ere, -cepi, -ceptum","to take in","to gather","to perceive")
+words[73] = new makeWord("ubertim (adv.)","copiously","abundantly")
+words[74] = new makeWord("nuptiae, -arum (f.pl.)","marriage")
+words[75] = new makeWord("simulacrum, -i (n.)","image","statue")
+words[76] = new makeWord("politus, -a, -um","polished","smooth")
+words[77] = new makeWord("desponsus, -a, -um","pledged","betrothed")
+words[78] = new makeWord("vidua, -ae (f.)","widow","spinster")
+words[79] = new makeWord("defleo, -ere, -evi, -etum","to lament","to weep")
+words[80] = new makeWord("odi, odisse, osus","to hate")
+words[81] = new makeWord("supera, -orum (n.pl.)","heavenly things")
+words[82] = new makeWord("percontor, -ari, -atus sum","to question")
+words[83] = new makeWord("maritus, i (m.)","husband")
+words[84] = new makeWord("sisto, -ere, steti, statum","to put","to place")
+words[85] = new makeWord("mundus, -i (m.)","universe","adornment","world")
+words[86] = new makeWord("thalamus, -i (m.)","marriage bed","marriage")
+words[87] = new makeWord("gener, -i (m.)","son-in-law")
+words[88] = new makeWord("stirps, -is (f.)","root","stock","lineage")
+words[89] = new makeWord("tristis, -e","sad")
+words[90] = new makeWord("praeceptum, -i (n.)","command","order")
+words[91] = new makeWord("maereo, -ere","to grieve for","to mourn")
+words[92] = new makeWord("fleo, -ere, -evi, -etum","to weep")
+words[93] = new makeWord("lamentor, -ari, -atus sum","to lament","to mourn")
+words[94] = new makeWord("dirus, -a, -um","dire")
+words[95] = new makeWord("sors, sortis (f.)","lot","fate","destiny")
+words[96] = new makeWord("feralis, -e","funereal","gloomy")
+words[97] = new makeWord("taeda, -ae (f.)","torch")
+words[98] = new makeWord("ater, atra, atrum","black")
+words[99] = new makeWord("cinis, -eris (m.)","ashes","ash")
+words[100] = new makeWord("lugubris, -e","doleful","gloomy")
+words[101] = new makeWord("nubo, -ere, nupsi, nuptum","to wed","to marry")
+words[102] = new makeWord("detergo, -ere, -si, -sum","to wipe away")
+words[103] = new makeWord("imperium, -i (n.)","command","order","empire")
+words[104] = new makeWord("misellus, -a, -um","poor little")
+words[105] = new makeWord("posco, -ere, poposci","to ask","to demand","to request")
+words[106] = new makeWord("vivus, -a, -um","alive","live")
+words[107] = new makeWord("funus, -eris (n.)","funeral")
+words[108] = new makeWord("exsequiae, -arum (f.pl.)","funeral procession")
+words[109] = new makeWord("nefarius, -a, -um","evil","criminal","wicked")
+words[110] = new makeWord("facinus, -oris (n.)","crime","outrage","deed")
+words[111] = new makeWord("cunctor, -ari, -atus sum","to delay")
+words[112] = new makeWord("quid?","why","what?")
+words[113] = new makeWord("fletus, -us (m.)","weeping","tears")
+words[114] = new makeWord("crucio, -are","to torture")
+words[115] = new makeWord("canities, -ei (f.)","gray hair","old age")
+words[116] = new makeWord("arduus, -a, -um","steep","hard","difficult")
+words[117] = new makeWord("cacumen, -inis (n.)","point","tip","peak")
+words[118] = new makeWord("cunctus, -a, -um","all together","all","together")
+words[119] = new makeWord("desero, -ere, -ui, -tus","to desert","abandon")
+words[120] = new makeWord("fundo, -ere, fudi, fusum","to pour")
+words[121] = new makeWord("clades, -is (f.)","disaster","ruin")
+words[122] = new makeWord("defessus, -a, -um","worn out","exhausted","tired")
+words[123] = new makeWord("abstrusus, -a, -um","concealed","hidden")
+words[124] = new makeWord("tenebrae, -arum (f.pl.)","darkness","shadows")
+words[125] = new makeWord("paveo, -ere, pavi","to be terrified")
+words[126] = new makeWord("mitis, -e","mild","gentle","calm","soft")
+words[127] = new makeWord("aura, -ae (f.)","breeze","air","wind")
+words[128] = new makeWord("molliter (adv.)","softly","gently")
+words[129] = new makeWord("spiro, -are, -avi, -atum","to breathe")
+words[130] = new makeWord("sensim (adv.)","gradually","carefully")
+words[131] = new makeWord("levo, -are, -avi, -atum","to raise","to lift up")
+words[132] = new makeWord("paulatim (adv.)","gradually")
+words[133] = new makeWord("rupes, -is (f.)","cliff")
+words[134] = new makeWord("gremium, -i (n.)","lap")
+words[135] = new makeWord("delabor, -i, -lapsus sum","to slip down","to fall down", "to glide down")
+words[136] = new makeWord("torus, -i (m.)","couch","bed")
+words[137] = new makeWord("roscidus, -a, -um","dewy")
+words[138] = new makeWord("gramen, -inis (n.)","grass","meadow")
+words[139] = new makeWord("recubo, -are","to lie down","to rest","to recline")
+words[140] = new makeWord("dulciter (adv.)","sweetly")
+words[141] = new makeWord("conquiesco, -ere, -evi, -etum","to rest")
+words[142] = new makeWord("lucus, -i (m.)","sacred grove","grove","woods")
+words[143] = new makeWord("procerus, -a, -um","tall","long")
+words[144] = new makeWord("consero, -ere, -evi, -itum","to sow","to plant")
+words[145] = new makeWord("vitreus, -a, -um","of glass","glassy")
+words[146] = new makeWord("perlucidus, -a, -um","very bright","transparent")
+words[147] = new makeWord("niteo, -ere, -ui","to shine")
+words[148] = new makeWord("argentum, -i (n.)","silver")
+words[149] = new makeWord("lapis, -idis (m.)","stone")
+words[150] = new makeWord("amoenitas, -atis (f.)","charm","pleasantness")
+words[151] = new makeWord("accedo, -ere, -cessi, -cessum","to approach","to go to")
+words[152] = new makeWord("limen, -inis (n.)","threshold","doorway","door")
+words[153] = new makeWord("audeo, -ere, ausus sum","to dare")
+words[154] = new makeWord("singuli, -ae, -a","single","one at a time")
+words[155] = new makeWord("horreum, -i (n.)","barn","granary")
+words[156] = new makeWord("gaza, -ae (f.)","treasure")
+words[157] = new makeWord("vinculum, -i (n.)","chain","bond")
+words[158] = new makeWord("claustra, -orum (n.pl.)","lock")
+words[159] = new makeWord("custos, -odis (m.)","guard")
+words[160] = new makeWord("munio, -ire, -ivi (-ii), -itum","to defend","to fortify")
+words[161] = new makeWord("opes, opum (f.pl.)","wealth","resources")
+words[162] = new makeWord("cubiculum, -i (n.)","bedroom")
+words[163] = new makeWord("lavacrum, -i (n.)","bath")
+words[164] = new makeWord("famula, -ae (n.)","maidservant","slave")
+words[165] = new makeWord("sedulo (adv.)","diligently","carefully")
+words[166] = new makeWord("curo, -are, -avi, -atum","to care for","to attend to")
+words[167] = new makeWord("regalis, -e","regal","kingly","royal")
+words[168] = new makeWord("daps, -is (f.)","banquet","feast")
+words[169] = new makeWord("prius (adv.)","first","before")
+words[170] = new makeWord("cenatorium, -i (n.)","dining room")
+words[171] = new makeWord("libens, -entis","willing","ready")
+words[172] = new makeWord("accumbo, -ere, -ui","to recline","to lie down")
+words[173] = new makeWord("horresco, -ere, -ui","to tremble","to dread","to shudder")
+words[174] = new makeWord("propere (adv.)","quickly","hastily")
+words[175] = new makeWord("delector, -ari, -atus sum","to delight in","to enjoy")
+words[176] = new makeWord("luctus, -us (m.)","grief","sorrow")
+words[177] = new makeWord("consenesco, -ere, -ui","to grow old")
+words[178] = new makeWord("minor, -ari, -atus sum","to threaten")
+words[179] = new makeWord("requiro, -ere, -sivi, -situm","to look for","to search for")
+words[180] = new makeWord("protinus (adv.)","immediately","right away")
+words[181] = new makeWord("neve . . . neve","neither . . . nor")
+words[182] = new makeWord("prospicio, -ere, -spexi, -spectum","to look out","to look forward","to foresee")
+words[183] = new makeWord("omnino (adv.)","altogether","entirely","completely")
+words[184] = new makeWord("ceterum (adv.)","otherwise","for the rest")
+
+function Random( min, max )
+{
+	var multiple = max - min
+	var offset = min
+
+	return Math.round( ( Math.random() * multiple ) ) + offset
+}
+
+function newWord(form)
+
+{
+	wordnum = Random(1,numWords)
+	form.word.value = words[wordnum].word
+	form.mean.value = ""
+}
+
+function findPrecent(correct,wrong)
+
+{
+	var total = correct + wrong
+	return Math.round(100 * correct / total)
+
+}
+
+function checkWord(form)
+
+{
+	var page = ""
+	page += "<HTML>"
+	page += "<HEAD>"
+	page += "<TITLE></TITLE>"
+	page += "</HEAD>"
+	page += "<BODY BGCOLOR='white' TEXT='black'>"
+	page += "<CENTER>"
+
+	if(words[wordnum].numArguments <= 2)
+		{
+			if(words[wordnum].meaning == form.mean.value)
+				{
+					correctCount++
+					page +=	"<b>Correct!</b><P>"
+				}
+			if(words[wordnum].meaning != form.mean.value)
+				{
+					page += "<b>Incorrect.</b><P>"
+					page += "The correct answer is '"
+					page += words[wordnum].meaning
+					page += "'."
+					wrongCount++
+				}
+		}
+	if(words[wordnum].numArguments == 3)
+		{
+			if(words[wordnum].meaning == form.mean.value)
+				{
+					correctCount++
+					page +=	"<b>Correct!</b><P>"
+				}
+			else if(words[wordnum].meaning2 == form.mean.value)
+				{
+					correctCount++
+					page += "<b>Correct!</b><P>"
+				}
+			else
+				{
+					page += "<b>Incorrect.</b><P>"
+					page += "The correct answer is '"
+					page += words[wordnum].meaning
+					if(words[wordnum].numArguments == 3)
+						{
+							page += "' or '"
+							page += words[wordnum].meaning2
+						} 
+					page += "'."
+					wrongCount++
+				}
+		}
+	if(words[wordnum].numArguments > 3)
+		{
+			if(words[wordnum].meaning == form.mean.value)
+				{
+					correctCount++
+					page +=	"<b>Correct!</b><P>"
+				}
+			else if(words[wordnum].meaning2 == form.mean.value)
+				{
+					correctCount++
+					page += "<b>Correct!</b><P>"
+				}
+			else if(words[wordnum].meaning3 == form.mean.value)
+				{
+					correctCount++
+					page += "<b>Correct!</b><P>"
+				}
+			else
+				{
+					page += "<b>Incorrect.</b><P>"
+					page += "The correct answer is '"
+					page += words[wordnum].meaning
+					if(words[wordnum].numArguments > 2)
+						{
+							page += "' or '"
+							page += words[wordnum].meaning2
+						}
+					if(words[wordnum].numArguments > 3)
+						{
+							page += "' or '"
+							page += words[wordnum].meaning3
+						} 
+					page += "'."
+					wrongCount++
+				}
+		}		
+	page += "<P>You have gotten "
+	page += correctCount
+	page += " correct and "
+	page += wrongCount
+	page += " wrong for a score of "
+	page += findPrecent(correctCount,wrongCount)
+	page += "%."
+	page += "</CENTER>"
+	page += "</BODY>"
+	page += "</HTML>"
+	top.frameTwo.document.close()
+	top.frameTwo.document.write(page)
+	top.frameTwo.document.close()
+}
+
+
+</SCRIPT>
+</HEAD>
+<BODY>
+<FORM>
+<CENTER><FONT SIZE=6><FONT COLOR="#FF0000">Latin 202 Vocabulary Tutorial</FONT></FONT><BR>
+<FONT SIZE=4>For Cupid & Psyche</FONT></CENTER><P>
+
+<CENTER>
+<INPUT Type="button" name="getWord" value="New Word" onclick="newWord(this.form)"><P>
+
+<TABLE BORDER = 0>
+<TR>
+	<TD><CENTER><FONT SIZE=5>Word</FONT></CENTER></TD>
+	<TD><CENTER><FONT SIZE=5>Meaning</FONT></CENTER></TD>
+</TR>
+<TR>
+	<TD><FONT SIZE=4><INPUT Type="text" name="word" value="" Size=40></FONT></TD>
+	<TD><FONT SIZE=4><INPUT Type="text" name="mean" value="" Size=40></FONT></TD>
+</TR>
+</TABLE><P>
+<INPUT Type="button" value="Check it!" onclick="checkWord(this.form)">
+<P><HR>
+<P>
+
+Special thanks to Bill Carey for creating this JavaScript exercise.<BR>
+<P>
+
+
+<FONT SIZE=4>Note:  This is a beta version. <br>
+ If you discover a bug, please email <A HREF="mailto:carey@patriot.net">carey@patriot.net</A></FONT>
+</CENTER>
+</FORM>
+</BODY>
+</HTML>

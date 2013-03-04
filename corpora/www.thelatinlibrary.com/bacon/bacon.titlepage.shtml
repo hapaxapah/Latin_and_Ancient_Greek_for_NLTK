@@ -1,0 +1,66 @@
+<html>
+	<head>
+		<title>
+			Bacon: Title Page
+		</title>
+
+		<link rel="SHORTCUT ICON" href="http://www.thelatinlibrary.com/icon.ico">
+		<link rel="StyleSheet" href="http://www.thelatinlibrary.com/latinlibrary.css">
+	</head>
+	
+<body>
+
+<p class=pagehead>DEEST PARS PRIMA
+</p>
+
+<p class=pagehead>
+INSTAURATIONIS,<br>
+QUAE COMPLECTITUR
+</p>
+
+<p class=pagehead>
+PARTITIONES SCIENTIARUM.
+</p>
+
+<p>
+<div align="center">Illae tamen ex Secundo Libro de <br>
+Progressibus faciendis in<br>
+Doctrina Divina et<br>
+Humana,<br>
+nonnulla ex parte<br>
+peti possunt.
+<br>
+<br>
+_________________________________________________________________<br>
+_________________________________________________________________</DIV>
+</p>
+
+
+<p class=pagehead>SEQUITUR SECUNDA PARS
+</p>
+
+<p class=pagehead>
+INSTAURATIONIS,<br>
+QUAE ARTEM IPSAM
+</p>
+
+<p>
+<div align="center">Interpretandi Naturam, et verioris adoperationis<br>
+Intellectus exhibet: neque eam ipsam<br>
+tamen in Corpore tractatus justi,<br>
+sed tantum digestam per<br>
+summas in<br>
+Aphorismos<br></DIV>
+</P>
+<p class=border></P>
+<p>
+<table border=0 cellspacing=15 cellpadding=0 align=CENTER>
+<tr>
+	<td><a href="/bacon.html">Bacon</A>
+	<td><a href="/neo.html">Neo-Latin</A>
+	<td><a href="/index.html">The Latin Library</A>
+	<td><a href="/classics.html">The Classics Page</A>
+</TABLE>
+</P>
+</BODY>
+</HTML>

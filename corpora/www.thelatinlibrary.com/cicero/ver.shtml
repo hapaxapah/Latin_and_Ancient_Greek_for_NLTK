@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<title>
+			Cicero: In Verrem
+		</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		
+		<link rel="shortcut icon" href="http://www.thelatinlibrary.com/icon.ico">
+		
+		<link rel="StyleSheet" href="http://www.thelatinlibrary.com/latinlibrary.css">
+		<link rel="StyleSheet" href="http://www.thelatinlibrary.com/latinlibrary_print.css" media = "print">
+	</head>
+	
+<body>
+
+<h1>M. TVLLI CICERONIS ORATIONES IN VERREM</h1>
+
+<div class="work">
+	<table border="0" cellspacing="5" cellpadding="6" align="center">
+		<tbody>
+			<tr>
+				<td><a href="caecilium.shtml">In Caecilium</A></td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<div class="work">
+	<table border="0" cellspacing="5" cellpadding="6" align="center">
+		<tbody>
+			<tr>
+				<td><a href="ver1.shtml">In Verrem I</A></td>
+				<td><a href="verres.2.1.shtml">In Verrem II.1</A></td>
+				<td><a href="verres.2.2.shtml">In Verrem II.2</A></td>
+			</tr>
+			<tr>	
+				<td><a href="verres.2.3.shtml">In Verrem II.3</A></td>
+				<td><a href="verres.2.4.shtml">In Verrem II.4</A></td>
+				<td><a href="verres.2.5.shtml">In Verrem II.5</A></td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<div class="footer">
+	<p>
+		<a href="/cic.html">Cicero</a>
+		<a href="/index.html">The Latin Library</a>
+		<a href="/classics.html">The Classics Page</a>
+	</p>
+</div>
+</body>
+</html>
